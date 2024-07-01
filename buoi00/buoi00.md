@@ -134,10 +134,11 @@ Boolean(4); // true
 Boolean(0); // false
 Boolean([]); // true
 Boolean(''); // false
-Hãy thận trọng khi sử dụng các đoạn mã.
-content_copy
+```
+
 Sử dụng toán tử NOT (!): Đây là cách phổ biến hơn nhưng có thể trông hơi lạ đối với người mới bắt đầu. Toán tử NOT được sử dụng lặp lại hai lần (!!). Ví dụ:
-JavaScript
+
+```js
 !!4; // true
 !!0; // false
 !![]; // true
@@ -170,8 +171,9 @@ Ví dụ:
 !!4; // true
 !!!4; // false
 !!!!4; // true
+```
 
-<div style="page-break-after: always;"></div>```
+<div style="page-break-after: always;"></div>
 
 ## 4. Destructuring function parameters
 ```js
@@ -240,8 +242,9 @@ sendApiRequest({ method: 'PUT', numOfRetries: 4 });
 
 ```js
 sendApiRequest({numOfRetries: 4 });
+```
 
-<div style="page-break-after: always;"></div>```
+<div style="page-break-after: always;"></div>
 
 ## 6. Property Value Shorthand
 Các đối tượng trong JavaScript hiện đại có một thủ thuật nhỏ tiện lợi. Đó là một việc nhỏ nhưng nếu bạn không để ý thì có thể gây ra rất nhiều nhầm lẫn.
@@ -436,8 +439,9 @@ const yourObj = { bye: 10 };
 
 const ourObj = { ...myObj, ...yourObj };
 console.log(ourObj); // { hi: 5, bye: 10 }
+```
 
-<div style="page-break-after: always;"></div>```
+<div style="page-break-after: always;"></div>
 
 ## 9. Array Destructuring
 Giả sử chúng ta có một số dữ liệu nằm trong một mảng và chúng ta muốn lấy nó ra và gán nó cho một biến.
