@@ -1,0 +1,5 @@
+{
+  "markdown-pdf.displayHeaderFooter": true,
+  "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm\">Trung tâm ATT Lab - Khóa học front-end 🎉 </div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span>ReactJS</span></div>",
+  "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>"
+}
