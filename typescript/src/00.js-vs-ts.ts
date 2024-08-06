@@ -10,7 +10,7 @@ function loadNumber() {
 let someLegacyVariable1;
 
 someLegacyVariable1 = loadString();
-console.log(someLegacyVariable1.toUpperCase());
+console.log(someLegacyVariable1.toFixed());
 
 someLegacyVariable1 = loadNumber();
 console.log(someLegacyVariable1.toFixed(2));
