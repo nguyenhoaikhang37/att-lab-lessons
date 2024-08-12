@@ -3,9 +3,7 @@ type Person = {
   email: string;
 };
 
-type PersonDictionary = {
-  [username: string]: Person;
-};
+type PersonDictionary = Record<string, Person>;
 
 const persons: PersonDictionary = {
   // jane: { displayName: 'Jane Doe', email: 'jane@example.com' },
